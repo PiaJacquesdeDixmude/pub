@@ -4,6 +4,7 @@
 
 
 
+
 body,
 input,
 textarea,
@@ -490,4 +491,14 @@ h6,
   color: #fde400;
   text-align: center;
   font-size: 80px;
+}
+#header4-a .mbr-section-title {
+  color: #fac51c;
+}
+#header4-a .mbr-section-lead SPAN {
+  color: #fac51c;
+  font-family: 'Open Sans', sans-serif;
+}
+#header2-9 .mbr-section-text {
+  color: #fac51c;
 }
