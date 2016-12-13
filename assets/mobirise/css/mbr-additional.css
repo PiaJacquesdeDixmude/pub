@@ -6,10 +6,13 @@
 
 
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> origin/gh-pages
 body,
 input,
 textarea,
@@ -661,4 +664,14 @@ h6,
 }
 #header5-i .mbr-section-lead {
   color: #9c9a9a;
+}
+#header4-a .mbr-section-title {
+  color: #fac51c;
+}
+#header4-a .mbr-section-lead SPAN {
+  color: #fac51c;
+  font-family: 'Open Sans', sans-serif;
+}
+#header2-9 .mbr-section-text {
+  color: #fac51c;
 }
