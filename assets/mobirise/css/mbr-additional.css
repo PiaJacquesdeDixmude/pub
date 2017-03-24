@@ -496,14 +496,15 @@ h6,
 #header2-b .mbr-section-title {
   font-family: 'Droid Serif', serif;
   color: #3d8eb9;
-  text-align: right;
+  text-align: center;
+  font-size: 84px;
 }
 #header4-a .mbr-section-title {
-  color: #ffffff;
+  color: #fac51c;
   font-family: 'Droid Serif', serif;
 }
 #header4-a .mbr-section-lead SPAN {
-  color: #ffffff;
+  color: #f3c649;
   font-family: 'Droid Serif', serif;
   text-align: center;
 }
