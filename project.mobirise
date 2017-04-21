@@ -22,8 +22,13 @@
       }
     },
     "versionFirst": "3.9.2",
-    "uniqCompNum": 66,
-    "versionPublish": "3.12.1"
+    "uniqCompNum": 73,
+    "versionPublish": "3.12.1",
+    "favicon": "",
+    "noImageResize": "true",
+    "google-analytics": "<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-96294117-1', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -46,10 +51,10 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#000000"
+              "color": "#ffffff"
             },
             ".link, .dropdown-item": {
-              "color": "#000000",
+              "color": "#ffffff",
               "googleLink": "https://fonts.googleapis.com/css?family=Droid+Serif:400,700",
               "font-family": "'Droid Serif', serif"
             },
@@ -72,7 +77,7 @@
               "background": "#ffffff"
             },
             ".bg-color.transparent .link": {
-              "color": "#000000",
+              "color": "#ffffff",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -92,7 +97,7 @@
               "color": "#ffffff"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#000000"
+              "background-color": "#ffffff"
             },
             ".btn": {
               "font-family": "'Droid Serif', serif",
@@ -109,10 +114,10 @@
               "url": "https://fonts.googleapis.com/css?family=Droid+Serif:400,700",
               "css": "'Droid Serif', serif"
             },
-            "fontColor": "#000000",
+            "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
-            "sticky": false,
+            "sticky": true,
             "logo": false,
             "showBrand": false,
             "collapsed": true,
@@ -133,127 +138,122 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page1.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">MON TRAVAIL</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Abcdarium.html\">Abcdarium</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Bildhamburg_fr.html\">BildHamburg</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Poster Joke.html\">Joke Poster</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Music For.html\">Music For</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Istanbul Ekspres.html\">Istanbul Ekpres</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"false\">PHOTOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"false\">RECHERCHE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Copyright.html\" aria-expanded=\"false\">COPYRIGHT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page7.html\" aria-expanded=\"false\">NAVIGATION &amp; COOKIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Index French.html\" aria-expanded=\"false\">English</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Copyright.html\" aria-expanded=\"false\"></a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page1.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">WORK</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Abcdarium.html\">Abcdarium</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Bildhamburg.html\">BildHamburg</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Poster Joke.html\">Joke Poster</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Music For.html\">Music For</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Istanbul Ekspres.html\">Istanbul Ekpres</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"false\">RESEARCH</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Copyright.html\" aria-expanded=\"false\">COPYRIGHT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page7.html\" aria-expanded=\"false\">NAVIGATION &amp; COOKIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Index_fr.html\" aria-expanded=\"false\">French</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Copyright.html\" aria-expanded=\"false\"></a></li>"
         },
         {
           "_tags": [
             "Theme"
           ],
-          "_name": "header2",
+          "_name": "header1",
           "_styles": {
             ".mbr-section-title": {
-              "font-family": "'Droid Serif', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Serif:400,700",
-              "color": "#3d8eb9",
-              "text-align": "center",
-              "font-size": "84px"
-            }
-          },
-          "_anchor": "header2-b",
-          "_params": {
-            "imageSize": "70",
-            "parallax": true,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.3,
-            "overlayColor": "#000",
-            "inverse": false,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "showArrow": false
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/fullsizeoutput-31d9-1400x1051-36.png",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-header2",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title": "How I see It",
-          "text": "Full screen intro with parallax image background and color overlay and a picture on right.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header2",
-          "_styles": {
-            ".mbr-section-text": {
-              "color": "#000000",
               "font-family": "'Droid Serif', serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Droid+Serif:400,700"
             }
           },
-          "_anchor": "header2-9",
+          "_anchor": "header1-1u",
           "_params": {
-            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/brussl-building.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false
+          },
+          "title": "How I See It",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
+        },
+        {
+          "_inherit": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#000"
+            },
+            ".mbr-section-lead": {
+              "color": "#9c9a9a"
+            },
+            ".mbr-section-lead SPAN": {
+              "color": "#ffffff",
+              "font-family": "'Droid Serif', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Serif:400,700",
+              "font-size": "30px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header5",
+          "_anchor": "header5-20",
+          "_params": {
             "parallax": true,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/opdracht5-8-2000x992-19.jpg",
-            "bgColor": "#ffffff",
+            "showArrow": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#f55444",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.3,
+            "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "inverse": false,
+            "contentAlign": "left",
             "showTitle": false,
             "showText": true,
-            "showButtons": false,
-            "showArrow": false
+            "showButtons": false
           },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/panels-1400x934-38.jpg",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-header2",
-              "link": "",
-              "size": 0
+          "title": "SOLID COLOR INTRO",
+          "text": "<span style=\"font-style: normal;\">In my work, I first started, and still continue today, by an observation of the world around me. I want to show my vision from different point of vues to other people. For that, I do links between different pictures, and also try to make associations to create a new image. I use a imagery full of symbols, photo’s and objects of the everyday life. I am on search for details and try to react on a graphic way to show my vision on the world.</span><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD NOW</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            ".mbr-section-lead SPAN": {
+              "font-family": "'Droid Serif', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Serif:400,700",
+              "font-size": "20px"
             }
           },
-          "title": "INTRO WITH IMAGE",
-          "text": "In my work, I first started, and still continue today, by an observation of the world around me. I want to show my vision from different point of vues to other people. For that, I do links between different pictures, and also try to make associations to create a new image. I use a imagery full of symbols, photo’s and objects of the everyday life. I am on search for details and try to react on a graphic way to show my vision on the world.<br><br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
+          "_anchor": "header1-1z",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/panels.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": false,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "FULL SCREEN INTRO",
+          "text": "<br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
         },
         {
           "_name": "footer1",
@@ -286,10 +286,10 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#000000"
+              "color": "#ffffff"
             },
             ".link, .dropdown-item": {
-              "color": "#000000",
+              "color": "#ffffff",
               "googleLink": "https://fonts.googleapis.com/css?family=Droid+Serif:400,700",
               "font-family": "'Droid Serif', serif"
             },
@@ -312,7 +312,7 @@
               "background": "#ffffff"
             },
             ".bg-color.transparent .link": {
-              "color": "#000000",
+              "color": "#ffffff",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -332,7 +332,7 @@
               "color": "#ffffff"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#000000"
+              "background-color": "#ffffff"
             },
             ".btn": {
               "font-family": "'Droid Serif', serif",
@@ -349,7 +349,7 @@
               "url": "https://fonts.googleapis.com/css?family=Droid+Serif:400,700",
               "css": "'Droid Serif', serif"
             },
-            "fontColor": "#000000",
+            "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
             "sticky": true,
@@ -373,7 +373,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page1.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">MY WORK</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Abcdarium.html\">Abcdarium</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Bildhamburg.html\">BildHamburg</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Poster Joke.html\">Joke Poster</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Music For.html\">Music For</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Istanbul Ekspres.html\">Istanbul Ekpres</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"false\">PHOTOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"false\">RESEARCH</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Copyright.html\" aria-expanded=\"false\">COPYRIGHT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page7.html\" aria-expanded=\"false\">COOKIE PRIVACY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Copyright.html\" aria-expanded=\"false\"></a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page1.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">WORK</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Abcdarium.html\">Abcdarium</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Bildhamburg.html\">BildHamburg</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Poster Joke.html\">Joke Poster</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Music For.html\">Music For</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Istanbul Ekspres.html\">Istanbul Ekpres</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"false\">RESEARCH</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Copyright.html\" aria-expanded=\"false\">COPYRIGHT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page7.html\" aria-expanded=\"false\">NAVIGATION &amp; COOKIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Index_fr.html\" aria-expanded=\"false\">French</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Copyright.html\" aria-expanded=\"false\"></a></li>"
         },
         {
           "_name": "footer1",
@@ -549,7 +549,7 @@
             "showButtons": false
           },
           "title": "",
-          "text": "<span style=\"font-style: normal;\">After a school trip in Hamburg where we had to make series of photos, the assignment was to made a publication in a newspaper format. The aim was to give your vision on one or several aspects of Hamburg, and to associate a text with the photos to add a new layer to the publication. This allowed us to learn to create visual information on several pages. The publication had to contain 8 pages. \nAn interesting aspect of this project was the creation of a common Flickr account with all the photos taken by the students during the trip. This permitted to easily share the photos and to have an access to an important source of different images of Hamburg.\n\nI had taken pictures of doors and also of city landscapes. My newspaper was like a walk in the city of Hamburg. Each door was like an entrance to an other place. A bit like if in your mind it took you somewhere else. To give this effect I displayed different photos on each other to create a new poetic and melancholic image. To create a contrast with these images, I linked them with German poems of Bach (who lived in Hamburg) in the typical German typography, Fraktur.&nbsp;</span><br><span style=\"font-style: normal;\"><br></span><br>Après un voyage scolaire à Hamburg où nous avons pris une série de photos, avec lesquelles il fallait ensuite créer une publication, dans un format imposé. Le but était de donner ta vision sur un ou plusieurs aspects d'Hamburg, et d'associer un texte avec les photos et d'ajouter une nouvelle dimension à la publication. Cela nous a permis d'apprendre à créer une information visuelle sur plusieurs pages. Cet publication contient huit pages. Un aspect interessant du projet était la creation d'un compte Flickr avec toutes les photos pris par les étudiants pendant le voyage. Cela a permis de partager les photos plus facilement et d'avoir accès à différentes images de Hamburg. J'ai pris des photos de portes et de paysages urbains. Ma publication était comme une ballade dans Hambourg. Chaque porte est comme une entrée dans un nouvel espace. Un peu comme si ton esprit était ailleurs. Pour donner cet effet, j'ai surperposé les photos pour créer une nouvelle image plus mélancholique et poétique. Pour créer un contraste avec les images, je les ai associés avec des poèmes allemands de Bach (originaire de Hamburg).&nbsp;",
+          "text": "<span style=\"font-style: normal;\">After a school trip in Hamburg where we had to make series of photos, the assignment was to made a publication in a newspaper format. The aim was to give your vision on one or several aspects of Hamburg, and to associate a text with the photos to add a new layer to the publication. This allowed us to learn to create visual information on several pages. The publication had to contain 8 pages. \nAn interesting aspect of this project was the creation of a common Flickr account with all the photos taken by the students during the trip. This permitted to easily share the photos and to have an access to an important source of different images of Hamburg.\n\nI had taken pictures of doors and also of city landscapes. My newspaper was like a walk in the city of Hamburg. Each door was like an entrance to an other place. A bit like if in your mind it took you somewhere else. To give this effect I displayed different photos on each other to create a new poetic and melancholic image. To create a contrast with these images, I linked them with German poems of Bach (who lived in Hamburg) in the typical German typography, Fraktur.&nbsp;</span><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD NOW</a>"
         },
         {
@@ -566,8 +566,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/bildhamburg-1-2000x2850-83-2000x2850-56.jpg",
-                "image": "@PROJECT_PATH@/assets/images/bildhamburg-1-2000x2850-83.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/bildhamburg-800x1140.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bildhamburg.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -576,8 +576,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/bh-1-2000x2850-19-2000x2850-67.jpg",
-                "image": "@PROJECT_PATH@/assets/images/bh-1-2000x2850-19.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/bh-800x1140.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bh.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -586,8 +586,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/bh-2-2000x2850-26-2000x2850-91.jpg",
-                "image": "@PROJECT_PATH@/assets/images/bh-2-2000x2850-26.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/bh-1-800x1140.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bh-1.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -596,8 +596,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/bh-4-2000x2850-8-2000x2850-65.jpg",
-                "image": "@PROJECT_PATH@/assets/images/bh-4-2000x2850-8.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/bh-2-800x1140.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bh-2.jpg",
                 "caption": "Type caption here",
                 "active": true
               }
@@ -630,10 +630,10 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#000000"
+              "color": "#ffffff"
             },
             ".link, .dropdown-item": {
-              "color": "#000000",
+              "color": "#ffffff",
               "googleLink": "https://fonts.googleapis.com/css?family=Droid+Serif:400,700",
               "font-family": "'Droid Serif', serif"
             },
@@ -656,7 +656,7 @@
               "background": "#ffffff"
             },
             ".bg-color.transparent .link": {
-              "color": "#000000",
+              "color": "#ffffff",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -676,7 +676,7 @@
               "color": "#ffffff"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#000000"
+              "background-color": "#ffffff"
             },
             ".btn": {
               "font-family": "'Droid Serif', serif",
@@ -693,7 +693,7 @@
               "url": "https://fonts.googleapis.com/css?family=Droid+Serif:400,700",
               "css": "'Droid Serif', serif"
             },
-            "fontColor": "#000000",
+            "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
             "sticky": true,
@@ -717,7 +717,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page1.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">MY WORK</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Abcdarium.html\">Abcdarium</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Bildhamburg.html\">BildHamburg</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Poster Joke.html\">Joke Poster</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Music For.html\">Music For</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Istanbul Ekspres.html\">Istanbul Ekpres</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"true\">PHOTOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"true\">RESEARCH</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Copyright.html\" aria-expanded=\"false\">COPYRIGHT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Copyright.html\" aria-expanded=\"false\"></a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page1.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">WORK</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Abcdarium.html\">Abcdarium</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Bildhamburg.html\">BildHamburg</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Poster Joke.html\">Joke Poster</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Music For.html\">Music For</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Istanbul Ekspres.html\">Istanbul Ekpres</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"false\">RESEARCH</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Copyright.html\" aria-expanded=\"false\">COPYRIGHT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page7.html\" aria-expanded=\"false\">NAVIGATION &amp; COOKIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Index_fr.html\" aria-expanded=\"false\">French</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Copyright.html\" aria-expanded=\"false\"></a></li>"
         },
         {
           "_name": "footer1",
@@ -815,7 +815,7 @@
             "showButtons": false
           },
           "title": "SOLID COLOR INTRO",
-          "text": "<p>To learn their alphabet to children, teachers and parents often use alphabet posters of alphabet books. The letters of the alphabet are often linked with a word:    A like Apple, B like Boy, etc. \nThe assignment was to make your own abcdarium, but for adults, it had to have 28 pages, with each page dedicated to a letter.  \n\nMy abcdarium called “As Easy As ABC” is based on English expressions.</p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">They are presented with images illustrating the expression litterally. This created a humorous image that played with the fact that expressions have two ways of being interpreted. When you don’t know an expression and you hear it for the first time it gives you always a strange image at first hand. I decided to base my abcdarium on this and show how I saw expression when you don’t know his meaning. I choose to do my book in English because for me English expressions are really a characteristic of this language and are numerous. I see it as a playful book between language and images.</span></p><br><p><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span><span style=\"font-size: 1.07rem; line-height: 1.5;\">Pour apprendre leur alphabet aux enfants, les professeurs et les enfants utilisent souvent des posters et des livres avec l'alphabet. Les lettres de l'alphabet sont souvent liés à un autre mot: A comme Arbre, B comme Bébé, etc. Le projet était de créer son propre abécédaire, mais pour adultes, et devant contenir 28 pages, avec chaque page dédiée à une lettre. Mon abécédaire \"As Easy As ABC\", basé sur les expressions anglaises.</span></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">Elles sont présentées avec des images illustrant l'expression littéralement. Ceci crée une image humouristique qui joue avec le fait que les expressions peuvent être interpretés de deux manières. Quand tu connais pas l'expression et tu l'entends pour la première fois cela te donne toujours une image un peu bizarre. J'ai décidé de basé mon abécédaire sur ceci et de montrer comment je vois chaque expression quand tu connais pas la signification. J'ai choisi de faire mon livre en anglais parce que pour moi les expressions</span></p>",
+          "text": "<p>To learn their alphabet to children, teachers and parents often use alphabet posters of alphabet books. The letters of the alphabet are often linked with a word:    A like Apple, B like Boy, etc. \nThe assignment was to make your own abcdarium, but for adults, it had to have 28 pages, with each page dedicated to a letter.  \n\nMy abcdarium called “As Easy As ABC” is based on English expressions.</p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">They are presented with images illustrating the expression litterally. This created a humorous image that played with the fact that expressions have two ways of being interpreted. When you don’t know an expression and you hear it for the first time it gives you always a strange image at first hand. I decided to base my abcdarium on this and show how I saw expression when you don’t know his meaning. I choose to do my book in English because for me English expressions are really a characteristic of this language and are numerous. I see it as a playful book between language and images.</span></p><br><p><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span><br></p>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD NOW</a>"
         },
         {
@@ -832,8 +832,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/abc-cover-2000x2800-63-2000x2800-24.jpg",
-                "image": "@PROJECT_PATH@/assets/images/abc-cover-2000x2800-63.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/abc-cover-800x1120.jpg",
+                "image": "@PROJECT_PATH@/assets/images/abc-cover.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -842,8 +842,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/to-be-a-veg-2000x2800-27-2000x2800-33.jpg",
-                "image": "@PROJECT_PATH@/assets/images/to-be-a-veg-2000x2800-27.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/to-be-a-veg-800x1120.jpg",
+                "image": "@PROJECT_PATH@/assets/images/to-be-a-veg.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -852,8 +852,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/raining-cats-and-dogs-2000x2800-52-2000x2800-7.jpg",
-                "image": "@PROJECT_PATH@/assets/images/raining-cats-and-dogs-2000x2800-52.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/raining-cats-and-dogs-800x1120.jpg",
+                "image": "@PROJECT_PATH@/assets/images/raining-cats-and-dogs.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -862,8 +862,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/drinklikeafish-2000x2800-9-2000x2800-42.jpg",
-                "image": "@PROJECT_PATH@/assets/images/drinklikeafish-2000x2800-9.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/drinklikeafish-800x1120.jpg",
+                "image": "@PROJECT_PATH@/assets/images/drinklikeafish.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -872,8 +872,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/when-pigs-will-fly-2000x2800-12-2000x2800-24.jpg",
-                "image": "@PROJECT_PATH@/assets/images/when-pigs-will-fly-2000x2800-12.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/when-pigs-will-fly-800x1120.jpg",
+                "image": "@PROJECT_PATH@/assets/images/when-pigs-will-fly.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -882,8 +882,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/movemontains-2000x2800-32-2000x2800-73.jpg",
-                "image": "@PROJECT_PATH@/assets/images/movemontains-2000x2800-32.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/movemontains-800x1120.jpg",
+                "image": "@PROJECT_PATH@/assets/images/movemontains.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -892,8 +892,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/holycow-2000x2800-23-2000x2800-12.jpg",
-                "image": "@PROJECT_PATH@/assets/images/holycow-2000x2800-23.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/holycow-800x1120.jpg",
+                "image": "@PROJECT_PATH@/assets/images/holycow.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -902,8 +902,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/zip-2000x2800-11-2000x2800-7.jpg",
-                "image": "@PROJECT_PATH@/assets/images/zip-2000x2800-11.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/zip-800x1120.jpg",
+                "image": "@PROJECT_PATH@/assets/images/zip.jpg",
                 "caption": "Type caption here",
                 "active": true
               }
@@ -934,10 +934,10 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#000000"
+              "color": "#ffffff"
             },
             ".link, .dropdown-item": {
-              "color": "#000000",
+              "color": "#ffffff",
               "googleLink": "https://fonts.googleapis.com/css?family=Droid+Serif:400,700",
               "font-family": "'Droid Serif', serif"
             },
@@ -960,7 +960,7 @@
               "background": "#ffffff"
             },
             ".bg-color.transparent .link": {
-              "color": "#000000",
+              "color": "#ffffff",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -980,7 +980,7 @@
               "color": "#ffffff"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#000000"
+              "background-color": "#ffffff"
             },
             ".btn": {
               "font-family": "'Droid Serif', serif",
@@ -997,7 +997,7 @@
               "url": "https://fonts.googleapis.com/css?family=Droid+Serif:400,700",
               "css": "'Droid Serif', serif"
             },
-            "fontColor": "#000000",
+            "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
             "sticky": true,
@@ -1021,7 +1021,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page1.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">MON TRAVAIL</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Abcdarium.html\">Abcdarium</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Bildhamburg_fr.html\">BildHamburg</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Poster Joke.html\">Joke Poster</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Music For.html\">Music For</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Istanbul Ekspres.html\">Istanbul Ekpres</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"false\">PHOTOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"false\">RECHERCHE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Copyright.html\" aria-expanded=\"false\">COPYRIGHT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page7.html\" aria-expanded=\"false\">NAVIGATION &amp; COOKIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Index French.html\" aria-expanded=\"false\">English</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Copyright.html\" aria-expanded=\"false\"></a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page1.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">WORK</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Abcdarium.html\">Abcdarium</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Bildhamburg.html\">BildHamburg</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Poster Joke.html\">Joke Poster</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Music For.html\">Music For</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Istanbul Ekspres.html\">Istanbul Ekpres</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"false\">RESEARCH</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Copyright.html\" aria-expanded=\"false\">COPYRIGHT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page7.html\" aria-expanded=\"false\">NAVIGATION &amp; COOKIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Index_fr.html\" aria-expanded=\"false\">French</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Copyright.html\" aria-expanded=\"false\"></a></li>"
         },
         {
           "_name": "footer1",
@@ -1139,8 +1139,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mop-schoonmoeder-2000x2905-56-2000x2905-26.jpg",
-                "image": "@PROJECT_PATH@/assets/images/mop-schoonmoeder-2000x2905-56.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mop-schoonmoeder-800x1162.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mop-schoonmoeder.jpg",
                 "caption": "Type caption here",
                 "active": true
               }
@@ -1212,10 +1212,10 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#000000"
+              "color": "#ffffff"
             },
             ".link, .dropdown-item": {
-              "color": "#000000",
+              "color": "#ffffff",
               "googleLink": "https://fonts.googleapis.com/css?family=Droid+Serif:400,700",
               "font-family": "'Droid Serif', serif"
             },
@@ -1238,7 +1238,7 @@
               "background": "#ffffff"
             },
             ".bg-color.transparent .link": {
-              "color": "#000000",
+              "color": "#ffffff",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -1258,7 +1258,7 @@
               "color": "#ffffff"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#000000"
+              "background-color": "#ffffff"
             },
             ".btn": {
               "font-family": "'Droid Serif', serif",
@@ -1275,7 +1275,7 @@
               "url": "https://fonts.googleapis.com/css?family=Droid+Serif:400,700",
               "css": "'Droid Serif', serif"
             },
-            "fontColor": "#000000",
+            "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
             "sticky": true,
@@ -1299,7 +1299,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page1.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">MY WORK</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Abcdarium.html\">Abcdarium</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Bildhamburg.html\">BildHamburg</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Poster Joke.html\">Joke Poster</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Music For.html\">Music For</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Istanbul Ekspres.html\">Istanbul Ekpres</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"true\">PHOTOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"true\">RESEARCH</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Copyright.html\" aria-expanded=\"false\">COPYRIGHT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Copyright.html\" aria-expanded=\"false\"></a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page1.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">WORK</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Abcdarium.html\">Abcdarium</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Bildhamburg.html\">BildHamburg</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Poster Joke.html\">Joke Poster</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Music For.html\">Music For</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Istanbul Ekspres.html\">Istanbul Ekpres</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"false\">RESEARCH</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Copyright.html\" aria-expanded=\"false\">COPYRIGHT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page7.html\" aria-expanded=\"false\">NAVIGATION &amp; COOKIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Index_fr.html\" aria-expanded=\"false\">French</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Copyright.html\" aria-expanded=\"false\"></a></li>"
         },
         {
           "_inherit": "header1",
@@ -1339,7 +1339,7 @@
             "showButtons": false
           },
           "title": "SOLID COLOR INTRO",
-          "text": "The task was to make a cover for a vinyl record chosen from a given list. The aim was to make a total new design for a cover of an already existing music record and to make your own interpretation of the album. \n\nThe labels had to be presented on the cover. We had work with the style of the artist, his music and in relation with the time when the album came out. The aim was to learn to collect iconographic elements on a already existing subject. It was also to give a visual identity to something as abstract as music. <br>\n\n<br>I had chosen to work with the album “Music for falling from trees” from Peter Broderick. He wrote this music for a modern dance “falling from trees” piece show by the choreographer Adrienne Hart. <span style=\"line-height: 1.5;\">The performance goes on the different phases that a mentally ill patient goes through. The music is very melancholic. \nI took this photo, and reworked it to show a painful  process of mental sickness. I used the colour yellow inside the plate cover to show the inner madness of the person and red for the inner sleeve. It brings contrast with the yellow and express how a mentally ill person changes strongly of moods. At the back of the cover I reworked the photo of the golden rain-tree to highlight the importance of the yellow, the colour of mental illness and madness.</span><br>",
+          "text": "<span style=\"font-style: normal;\">The task was to make a cover for a vinyl record chosen from a given list. The aim was to make a total new design for a cover of an already existing music record and to make your own interpretation of the album. \n\nThe labels had to be presented on the cover. We had work with the style of the artist, his music and in relation with the time when the album came out. The aim was to learn to collect iconographic elements on a already existing subject. It was also to give a visual identity to something as abstract as music</span>. <br>\n\n<br><span style=\"font-style: normal;\">I had chosen to work with the album “Music for falling from trees” from Peter Broderick. He wrote this music for a modern dance “falling from trees” piece show by the choreographer Adrienne Hart. <span style=\"line-height: 1.5;\">The performance goes on the different phases that a mentally ill patient goes through. The music is very melancholic. \nI took this photo, and reworked it to show a painful  process of mental sickness. I used the colour yellow inside the plate cover to show the inner madness of the person and red for the inner sleeve. It brings contrast with the yellow and express how a mentally ill person changes strongly of moods. At the back of the cover I reworked the photo of the golden rain-tree to highlight the importance of the yellow, the colour of mental illness and madness.</span></span><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD NOW</a>"
         },
         {
@@ -1357,8 +1357,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/music-for-front-2000x2000-14-2000x2000-8.jpg",
-                "image": "@PROJECT_PATH@/assets/images/music-for-front-2000x2000-14.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/music-for-front-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/music-for-front.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -1367,8 +1367,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/music-for-back-2000x2000-66-2000x2000-57.jpg",
-                "image": "@PROJECT_PATH@/assets/images/music-for-back-2000x2000-66.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/music-for-back-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/music-for-back.jpg",
                 "caption": "Type caption here",
                 "active": true
               }
@@ -1416,10 +1416,10 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#000000"
+              "color": "#ffffff"
             },
             ".link, .dropdown-item": {
-              "color": "#000000",
+              "color": "#ffffff",
               "googleLink": "https://fonts.googleapis.com/css?family=Droid+Serif:400,700",
               "font-family": "'Droid Serif', serif"
             },
@@ -1442,7 +1442,7 @@
               "background": "#ffffff"
             },
             ".bg-color.transparent .link": {
-              "color": "#000000",
+              "color": "#ffffff",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -1462,7 +1462,7 @@
               "color": "#ffffff"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#000000"
+              "background-color": "#ffffff"
             },
             ".btn": {
               "font-family": "'Droid Serif', serif",
@@ -1479,7 +1479,7 @@
               "url": "https://fonts.googleapis.com/css?family=Droid+Serif:400,700",
               "css": "'Droid Serif', serif"
             },
-            "fontColor": "#000000",
+            "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
             "sticky": true,
@@ -1503,7 +1503,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page1.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">MY WORK</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Abcdarium.html\">Abcdarium</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Bildhamburg.html\">BildHamburg</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Poster Joke.html\">Joke Poster</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Music For.html\">Music For</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Istanbul Ekspres.html\">Istanbul Ekpres</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"true\">PHOTOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"true\">RESEARCH</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Copyright.html\" aria-expanded=\"false\">COPYRIGHT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Copyright.html\" aria-expanded=\"false\"></a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page1.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">WORK</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Abcdarium.html\">Abcdarium</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Bildhamburg.html\">BildHamburg</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Poster Joke.html\">Joke Poster</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Music For.html\">Music For</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Istanbul Ekspres.html\">Istanbul Ekpres</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"false\">RESEARCH</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Copyright.html\" aria-expanded=\"false\">COPYRIGHT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page7.html\" aria-expanded=\"false\">NAVIGATION &amp; COOKIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Index_fr.html\" aria-expanded=\"false\">French</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Copyright.html\" aria-expanded=\"false\"></a></li>"
         },
         {
           "_name": "footer1",
@@ -1600,7 +1600,7 @@
             "showButtons": false
           },
           "title": "SOLID COLOR INTRO",
-          "text": "Istanbul Ekpres was the first assignment of second year. We had to create an identity for a film festival in Gent. The three posters are a part of the festival, and had to have the same visual identity. All the three were on the Istanbul Pogrom but the films were made at different times and exploited the subject from different point of views. \nThe Istanbul pogrom were organized and extremely violent attacks directed primarily at Istanbul’s Greek minority in 1955. It comes from a long history of wars and migration movements. <br><br>The films are made from the point of view of the Greeks who were victims of these conflicts.\n\nTo create a recognizable identity, I first used the colour red, a strong colour in terms of signification (conflict, blood pain but also love) and which is also the colour of the Turkish flag. The images come from the films and are all in black and white, to bring the attention the red of the typography. The different elements come back in each poster, always in the same form, with the title of the film in a circle form, like a stamp on a letter. <br><br>We can clearly see that the three posters are linked together but they can also be seen individually, each one has the required information for somebody who would like to see the film. I focussed especially on setting the typography and the images in a  balance way as both are as important. &nbsp;<br>",
+          "text": "<span style=\"font-style: normal;\">Istanbul Ekpres was the first assignment of second year. We had to create an identity for a film festival in Gent. The three posters are a part of the festival, and had to have the same visual identity. All the three were on the Istanbul Pogrom but the films were made at different times and exploited the subject from different point of views. \nThe Istanbul pogrom were organized and extremely violent attacks directed primarily at Istanbul’s Greek minority in 1955. It comes from a long history of wars and migration movements. <br><br>The films are made from the point of view of the Greeks who were victims of these conflicts.\n\nTo create a recognizable identity, I first used the colour red, a strong colour in terms of signification (conflict, blood pain but also love) and which is also the colour of the Turkish flag. The images come from the films and are all in black and white, to bring the attention the red of the typography. The different elements come back in each poster, always in the same form, with the title of the film in a circle form, like a stamp on a letter. <br><br>We can clearly see that the three posters are linked together but they can also be seen individually, each one has the required information for somebody who would like to see the film. I focussed especially on setting the typography and the images in a  balance way as both are as important. &nbsp;</span><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD NOW</a>"
         },
         {
@@ -1618,8 +1618,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/a-touch-of-spice-2000x2905-29-2000x2905-18.jpg",
-                "image": "@PROJECT_PATH@/assets/images/a-touch-of-spice-2000x2905-29.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/a-touch-of-spice-800x1162.jpg",
+                "image": "@PROJECT_PATH@/assets/images/a-touch-of-spice.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -1628,8 +1628,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/rembetiko-2000x2905-89-2000x2905-45.jpg",
-                "image": "@PROJECT_PATH@/assets/images/rembetiko-2000x2905-89.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/rembetiko-800x1162.jpg",
+                "image": "@PROJECT_PATH@/assets/images/rembetiko.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -1638,8 +1638,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/my-gf-people-2000x2905-2-2000x2905-40.jpg",
-                "image": "@PROJECT_PATH@/assets/images/my-gf-people-2000x2905-2.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/my-gf-people-800x1162.jpg",
+                "image": "@PROJECT_PATH@/assets/images/my-gf-people.jpg",
                 "caption": "Type caption here",
                 "active": true
               }
@@ -1653,424 +1653,6 @@
             "showBullets": true
           },
           "_anchor": "gallery4-1f",
-          "articleLayout": false,
-          "allItem": "All"
-        }
-      ]
-    },
-    "Index French.html": {
-      "settings": {
-        "title": "",
-        "meta_descr": "",
-        "header_custom": "",
-        "footer_custom": "",
-        "html_before": "",
-        "order": 2
-      },
-      "components": [
-        {
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff"
-            },
-            ".navbar-toggler": {
-              "color": "#000000"
-            },
-            ".link, .dropdown-item": {
-              "color": "#000000",
-              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Serif:400,700",
-              "font-family": "'Droid Serif', serif"
-            },
-            ".link": {
-              "font-size": "0.8rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.866rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#e6e6e6"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#f7f7f7!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#ffffff"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#000000",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__section": {},
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#000000"
-            },
-            ".btn": {
-              "font-family": "'Droid Serif', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Serif:400,700"
-            }
-          },
-          "_name": "menu",
-          "_anchor": "menu-1m",
-          "_params": {
-            "bgColor": "#ffffff",
-            "fontSize": "0.8",
-            "fontName": {
-              "name": "Droid Serif",
-              "url": "https://fonts.googleapis.com/css?family=Droid+Serif:400,700",
-              "css": "'Droid Serif', serif"
-            },
-            "fontColor": "#000000",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": false,
-            "logo": false,
-            "showBrand": false,
-            "collapsed": true,
-            "hideButtons": true
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@THEME_PATH@/components/_images/logo.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page1.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">MON TRAVAIL</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Abcdarium.html\">Abcdarium</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Bildhamburg_fr.html\">BildHamburg</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Poster Joke.html\">Joke Poster</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Music For.html\">Music For</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Istanbul Ekspres.html\">Istanbul Ekpres</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"false\">PHOTOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"false\">RECHERCHE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Copyright.html\" aria-expanded=\"false\">COPYRIGHT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page7.html\" aria-expanded=\"false\">NAVIGATION &amp; COOKIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Index French.html\" aria-expanded=\"false\">English</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Copyright.html\" aria-expanded=\"false\"></a></li>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header2",
-          "_styles": {
-            ".mbr-section-title": {
-              "font-family": "'Droid Serif', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Serif:400,700",
-              "color": "#3d8eb9",
-              "text-align": "center",
-              "font-size": "84px"
-            }
-          },
-          "_anchor": "header2-1n",
-          "_params": {
-            "imageSize": "70",
-            "parallax": true,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.3,
-            "overlayColor": "#000",
-            "inverse": false,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "showArrow": false
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/fullsizeoutput-31d9-1400x1051-36.png",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-header2",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title": "How I see It",
-          "text": "Full screen intro with parallax image background and color overlay and a picture on right.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header2",
-          "_styles": {
-            ".mbr-section-text": {
-              "color": "#000000",
-              "font-family": "'Droid Serif', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Serif:400,700"
-            }
-          },
-          "_anchor": "header2-1o",
-          "_params": {
-            "imageSize": 50,
-            "parallax": true,
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/opdracht5-8-2000x992-19.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.3,
-            "overlayColor": "#000",
-            "inverse": false,
-            "showTitle": false,
-            "showText": true,
-            "showButtons": false,
-            "showArrow": false
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/panels-1400x934-38.jpg",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-header2",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title": "INTRO WITH IMAGE",
-          "text": "<br><br><i>Dans mon travail, j'ai &nbsp;d'abord commencé par observer le monde autour de moi. J'essaie d'expliquer et de montrer différent points de vues de ma manière de voir les choses. &nbsp;Pour cela je fais des liens entre les différentes images, et aussi de faire des associations pour créer une nouvelle image. Je m'inspire de symboles, photos et objets de &nbsp;la vie de tous les jours. Je suis à la recherche de détails, et j'essaie de réagir de manière graphique pour montrer ma vision sur mon environnement.</i><br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
-        },
-        {
-          "_name": "footer1",
-          "_anchor": "footer1-1p",
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "Copyright (c) 2016 Mobirise."
-        }
-      ]
-    },
-    "Bildhamburg_fr.html": {
-      "settings": {},
-      "components": [
-        {
-          "_name": "footer1",
-          "_anchor": "footer1-1q",
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "Copyright (c) 2016 Mobirise."
-        },
-        {
-          "_inherit": "header1",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#000",
-              "text-align": "left",
-              "font-family": "'Droid Serif', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Serif:400,700"
-            },
-            ".mbr-section-lead": {
-              "color": "#9c9a9a"
-            },
-            ".mbr-section-title SPAN": {
-              "font-size": "10px",
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header5",
-          "_anchor": "header5-1r",
-          "_params": {
-            "parallax": true,
-            "bgImageRadio": false,
-            "showArrow": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
-            "contentAlign": "left",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
-          },
-          "title": "BildHamburg<br><span style=\"font-weight: normal;\">&nbsp;</span>",
-          "text": "",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD NOW</a>"
-        },
-        {
-          "_inherit": "header1",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#000"
-            },
-            ".mbr-section-lead": {
-              "color": "#000000",
-              "font-size": "19px",
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header5",
-          "_anchor": "header5-1s",
-          "_params": {
-            "parallax": true,
-            "bgImageRadio": false,
-            "showArrow": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
-            "contentAlign": "left",
-            "showTitle": false,
-            "showText": true,
-            "showButtons": false
-          },
-          "title": "",
-          "text": "<span style=\"line-height: 1.5;\">Après un voyage scolaire à Hamburg où nous avons pris une série de photos, avec lesquelles il fallait ensuite créer une publication, dans un format imposé. Le but était de donner ta vision sur un ou plusieurs aspects d'Hamburg, et d'associer un texte avec les photos et d'ajouter une nouvelle dimension à la publication. Cela nous a permis d'apprendre à créer une information visuelle sur plusieurs pages. Cet publication contient huit pages. Un aspect interessant du projet était la creation d'un compte Flickr avec toutes les photos pris par les étudiants pendant le voyage. Cela a permis de partager les photos plus facilement et d'avoir accès à différentes images de Hamburg. J'ai pris des photos de portes et de paysages urbains. Ma publication était comme une ballade dans Hambourg. Chaque porte est comme une entrée dans un nouvel espace. Un peu comme si ton esprit était ailleurs. Pour donner cet effet, j'ai surperposé les photos pour créer une nouvelle image plus mélancholique et poétique. Pour créer un contraste avec les images, je les ai associés avec des poèmes allemands de Bach (originaire de Hamburg).&nbsp;</span><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD NOW</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "gallery1",
-          "_params": {
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "images": [
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/bildhamburg-1-2000x2850-83-2000x2850-56.jpg",
-                "image": "@PROJECT_PATH@/assets/images/bildhamburg-1-2000x2850-83.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/bh-1-2000x2850-19-2000x2850-67.jpg",
-                "image": "@PROJECT_PATH@/assets/images/bh-1-2000x2850-19.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/bh-2-2000x2850-26-2000x2850-91.jpg",
-                "image": "@PROJECT_PATH@/assets/images/bh-2-2000x2850-26.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/bh-4-2000x2850-8-2000x2850-65.jpg",
-                "image": "@PROJECT_PATH@/assets/images/bh-4-2000x2850-8.jpg",
-                "caption": "Type caption here",
-                "active": true
-              }
-            ],
-            "spacing": 0,
-            "showText": false,
-            "filter": false,
-            "bgColor": "#FFFFFF",
-            "filterBgColor": false,
-            "fullWidth": false,
-            "showBullets": true
-          },
-          "_anchor": "gallery1-1t",
           "articleLayout": false,
           "allItem": "All"
         }
@@ -2091,10 +1673,10 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#000000"
+              "color": "#ffffff"
             },
             ".link, .dropdown-item": {
-              "color": "#000000",
+              "color": "#ffffff",
               "googleLink": "https://fonts.googleapis.com/css?family=Droid+Serif:400,700",
               "font-family": "'Droid Serif', serif"
             },
@@ -2117,7 +1699,7 @@
               "background": "#ffffff"
             },
             ".bg-color.transparent .link": {
-              "color": "#000000",
+              "color": "#ffffff",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -2137,7 +1719,7 @@
               "color": "#ffffff"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#000000"
+              "background-color": "#ffffff"
             },
             ".btn": {
               "font-family": "'Droid Serif', serif",
@@ -2154,10 +1736,10 @@
               "url": "https://fonts.googleapis.com/css?family=Droid+Serif:400,700",
               "css": "'Droid Serif', serif"
             },
-            "fontColor": "#000000",
+            "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
-            "sticky": false,
+            "sticky": true,
             "logo": false,
             "showBrand": false,
             "collapsed": true,
@@ -2178,7 +1760,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page1.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">MON TRAVAIL</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Abcdarium.html\">Abcdarium</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Bildhamburg_fr.html\">BildHamburg</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Poster Joke.html\">Joke Poster</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Music For.html\">Music For</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Istanbul Ekspres.html\">Istanbul Ekpres</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"false\">PHOTOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"false\">RECHERCHE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Copyright.html\" aria-expanded=\"false\">COPYRIGHT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page7.html\" aria-expanded=\"false\">NAVIGATION &amp; COOKIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Index French.html\" aria-expanded=\"false\">English</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Copyright.html\" aria-expanded=\"false\"></a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page1.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">WORK</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Abcdarium.html\">Abcdarium</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Bildhamburg.html\">BildHamburg</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Poster Joke.html\">Joke Poster</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Music For.html\">Music For</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Istanbul Ekspres.html\">Istanbul Ekpres</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"false\">RESEARCH</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Copyright.html\" aria-expanded=\"false\">COPYRIGHT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page7.html\" aria-expanded=\"false\">NAVIGATION &amp; COOKIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Index_fr.html\" aria-expanded=\"false\">French</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Copyright.html\" aria-expanded=\"false\"></a></li>"
         },
         {
           "_name": "footer1",
@@ -2237,7 +1819,7 @@
             "showButtons": false
           },
           "title": "Cookies Privacy",
-          "text": "This site respects the privacy of every individual who visits its websites. Any information collected about you will be used to fulfil any service you might request, to inform you about new products and services and also to improve how we serve you. Your data will be treated in accordance with relevant European Union and local country legal provisions. Your information will not be disclosed to anyone outside of this site.&nbsp;<br>",
+          "text": "<span style=\"font-style: normal;\">This site respects the privacy of every individual who visits its websites. Any information collected about you will be used to fulfil any service you might request, to inform you about new products and services and also to improve how we serve you. Your data will be treated in accordance with relevant European Union and local country legal provisions. Your information will not be disclosed to anyone outside of this site.&nbsp;</span><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD NOW</a>"
         }
       ]
