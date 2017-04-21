@@ -68,13 +68,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#e6e6e6"
+              "background": "#29769f"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#f7f7f7!important"
+              "background": "#318bbb!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#ffffff"
+              "background": "#3494c7"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -107,7 +107,7 @@
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
-            "bgColor": "#ffffff",
+            "bgColor": "#3494c7",
             "fontSize": "0.8",
             "fontName": {
               "name": "Droid Serif",
@@ -342,7 +342,7 @@
           "_name": "menu",
           "_anchor": "menu-n",
           "_params": {
-            "bgColor": "#ffffff",
+            "bgColor": "#3494c7",
             "fontSize": "0.8",
             "fontName": {
               "name": "Droid Serif",
@@ -686,7 +686,7 @@
           "_name": "menu",
           "_anchor": "menu-c",
           "_params": {
-            "bgColor": "#ffffff",
+            "bgColor": "#3494c7",
             "fontSize": "0.8",
             "fontName": {
               "name": "Droid Serif",
@@ -990,7 +990,7 @@
           "_name": "menu",
           "_anchor": "menu-s",
           "_params": {
-            "bgColor": "#ffffff",
+            "bgColor": "#3494c7",
             "fontSize": "0.8",
             "fontName": {
               "name": "Droid Serif",
@@ -1268,7 +1268,7 @@
           "_name": "menu",
           "_anchor": "menu-14",
           "_params": {
-            "bgColor": "#ffffff",
+            "bgColor": "#3494c7",
             "fontSize": "0.8",
             "fontName": {
               "name": "Droid Serif",
@@ -1472,7 +1472,7 @@
           "_name": "menu",
           "_anchor": "menu-1b",
           "_params": {
-            "bgColor": "#ffffff",
+            "bgColor": "#3494c7",
             "fontSize": "0.8",
             "fontName": {
               "name": "Droid Serif",
@@ -1729,7 +1729,7 @@
           "_name": "menu",
           "_anchor": "menu-1j",
           "_params": {
-            "bgColor": "#ffffff",
+            "bgColor": "#3494c7",
             "fontSize": "0.8",
             "fontName": {
               "name": "Droid Serif",
