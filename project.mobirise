@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "cookies.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -138,7 +138,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page1.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">WORK</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Abcdarium.html\">Abcdarium</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Bildhamburg.html\">BildHamburg</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Poster Joke.html\">Joke Poster</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Music For.html\">Music For</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Istanbul Ekspres.html\">Istanbul Ekpres</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"false\">RESEARCH</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Copyright.html\" aria-expanded=\"false\">COPYRIGHT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page7.html\" aria-expanded=\"false\">NAVIGATION &amp; COOKIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Index_fr.html\" aria-expanded=\"false\">French</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Copyright.html\" aria-expanded=\"false\"></a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page1.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">WORK</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Abcdarium.html\">Abcdarium</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Bildhamburg.html\">BildHamburg</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Poster Joke.html\">Joke Poster</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Music For.html\">Music For</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Istanbul Ekspres.html\">Istanbul Ekpres</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Copyright.html\" aria-expanded=\"false\">COPYRIGHT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page7.html\" aria-expanded=\"false\">NAVIGATION &amp; COOKIES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"PiaJacquesdeDixmude.github.io/fr\" aria-expanded=\"false\">French</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Copyright.html\" aria-expanded=\"false\"></a></li>"
         },
         {
           "_tags": [
@@ -1690,13 +1690,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#e6e6e6"
+              "background": "#29769f"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#f7f7f7!important"
+              "background": "#318bbb!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#ffffff"
+              "background": "#3494c7"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -1819,7 +1819,7 @@
             "showButtons": false
           },
           "title": "Cookies Privacy",
-          "text": "<span style=\"font-style: normal;\">This site respects the privacy of every individual who visits its websites. Any information collected about you will be used to fulfil any service you might request, to inform you about new products and services and also to improve how we serve you. Your data will be treated in accordance with relevant European Union and local country legal provisions. Your information will not be disclosed to anyone outside of this site.&nbsp;</span><br>",
+          "text": "<span style=\"font-style: normal;\">This site respects the privacy of every individual who visits its websites. Your data will be treated in accordance with relevant European Union and local country legal provisions. Your information will not be disclosed to anyone outside of this site.&nbsp;</span><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD NOW</a>"
         }
       ]
