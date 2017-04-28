@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "Copyright.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -155,7 +155,7 @@
           "_params": {
             "parallax": true,
             "bgImageRadio": true,
-            "showArrow": false,
+            "showArrow": true,
             "bgImage": "@PROJECT_PATH@/assets/images/brussl-building.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
@@ -389,7 +389,7 @@
           "_params": {
             "parallax": true,
             "bgImageRadio": false,
-            "showArrow": true,
+            "showArrow": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#efefef",
             "bgColorRadio": true,
@@ -541,7 +541,7 @@
           "_params": {
             "parallax": true,
             "bgImageRadio": false,
-            "showArrow": false,
+            "showArrow": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#ffffff",
             "bgColorRadio": true,
@@ -1199,7 +1199,7 @@
           "_params": {
             "parallax": true,
             "bgImageRadio": false,
-            "showArrow": false,
+            "showArrow": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#ffffff",
             "bgColorRadio": true,
@@ -1524,7 +1524,7 @@
           "_params": {
             "parallax": true,
             "bgImageRadio": false,
-            "showArrow": false,
+            "showArrow": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#ffffff",
             "bgColorRadio": true,
